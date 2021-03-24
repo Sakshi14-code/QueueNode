@@ -1,0 +1,12 @@
+import java.util.*;
+public class Queue<E>{
+public static void main(String[] args){
+Queue<Integer>mq=new Queue<>();
+mq.enqueue(10);
+mq.enqueue(20);
+mq.enqueue(30);
+System.out.println(mq.dequeue());
+System.out.println(mq.dequeue());
+System.out.println(mq.dequeue());
+}
+}
